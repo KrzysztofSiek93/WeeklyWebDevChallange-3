@@ -177,6 +177,7 @@ font-family: 'Roboto Slab', serif;*/
 .button:active {
   background-color: #3e8e41;
   box-shadow: 0 15px #666;
+  color: black;
 
 }
 
