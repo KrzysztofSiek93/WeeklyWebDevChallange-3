@@ -181,7 +181,70 @@ font-family: 'Roboto Slab', serif;*/
 
 }
 
+/*Section services*/
 
+.services {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.services .h1__title{
+   flex-basis: 100%;
+   padding: 10px 0;
+   color: #222222;
+   font-family: Montserrat;
+   font-size: 35px;
+   font-weight: 700;
+   line-height: 50px;
+   text-transform: uppercase;
+   letter-spacing: -2px;
+   margin-top:20px ;
+  
+}
+
+.services .p__text {
+  flex-basis: 100%;
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  padding-bottom: 20px;
+ 
+}
+
+.services .article {
+  flex-basis: 100%;
+  padding: 20px 35px;
+  text-align: center;
+}
+
+.services__article .article__image{
+  padding-bottom:20px ;
+  
+} 
+
+.services__article .h2__title{
+  color: #222222;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+letter-spacing: -0.45px;
+}
+
+.services__article .text {
+  color: #777777;
+font-family: "Roboto Slab";
+font-size: 14px;
+font-weight: 400;
+letter-spacing: -0.35px;
+padding:0 10% ;
+
+}
 
 
 @media (max-width: 840px) {
