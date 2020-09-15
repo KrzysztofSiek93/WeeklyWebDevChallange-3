@@ -190,7 +190,7 @@ font-family: 'Roboto Slab', serif;*/
   text-align: center;
 }
 
-.services .h1__title{
+.h1__title{
    flex-basis: 100%;
    padding: 10px 0;
    color: #222222;
@@ -236,8 +236,8 @@ text-transform: uppercase;
 letter-spacing: -0.45px;
 }
 
-.services__article .text {
-  color: #777777;
+.text {
+color: #777777;
 font-family: "Roboto Slab";
 font-size: 14px;
 font-weight: 400;
@@ -245,6 +245,8 @@ letter-spacing: -0.35px;
 padding:0 10% ;
 
 }
+
+/*section info*/
 
 
 @media (max-width: 840px) {
